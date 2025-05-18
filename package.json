@@ -1,0 +1,29 @@
+{
+  "name": "tome-of-legends",
+  "version": "0.1.0",
+  "description": "A D&D GM Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Night-Breeze-Inn/Tome-of-Legends.git"
+  },
+  "keywords": ["ttrpg", "d&d", "gm", "dm", "toolkit", "tools", "game master", "dungeon master", "role-playing game", "rpg"],
+  "author": "Night Breeze Inn",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Night-Breeze-Inn/Tome-of-Legends/issues"
+  },
+  "homepage": "https://github.com/Night-Breeze-Inn/Tome-of-Legends#readme",
+  "devDependencies": {
+    "electron": "^36.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
